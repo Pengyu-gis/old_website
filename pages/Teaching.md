@@ -113,25 +113,25 @@ tags: [Page]
     
     .score-container {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-        gap: 20px;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 15px;
         margin-bottom: 35px;
     }
     .score-box {
         background: rgba(128, 128, 128, 0.03);
         color: inherit;
-        padding: 22px;
+        padding: 20px 15px;
         border-radius: 8px;
         text-align: center;
-        font-size: 0.95rem;
+        font-size: 0.9rem;
         border: 1px solid rgba(128, 128, 128, 0.15);
     }
     .score-box.highlight {
-        background: rgba(74, 144, 226, 0.08); /* 突出最新学期的满分绩点 */
+        background: rgba(74, 144, 226, 0.08); /* 突出最高学期的满分绩点 */
         border-color: rgba(74, 144, 226, 0.3);
     }
     .score-number {
-        font-size: 2rem;
+        font-size: 1.8rem;
         font-weight: 700;
         display: block;
         margin-top: 6px;
@@ -190,7 +190,7 @@ tags: [Page]
 
     <div class="course-card">
         <h2 class="course-title">GEOG 201: Landform Geography</h2>
-        <span class="course-meta">Role: Lab Instructor | University of South Carolina | Fall 2024, Spring 2025, & Spring 2026</span>
+        <span class="course-meta">Role: Lab Instructor | University of South Carolina | Fall 2024, Spring 2025, Fall 2025, & Spring 2026</span>
 
         <h4 style="margin-bottom: 15px; font-weight: 600; display: flex; align-items: center; gap: 8px;">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
@@ -253,6 +253,10 @@ tags: [Page]
             <div class="score-box highlight">
                 Spring 2026 Overall Instructor Score:
                 <span class="score-number">5.00 / 5.0</span>
+            </div>
+            <div class="score-box">
+                Fall 2025 Overall Instructor Score:
+                <span class="score-number">4.67 / 5.0</span>
             </div>
             <div class="score-box">
                 Fall 2024 Overall Instructor Score:
