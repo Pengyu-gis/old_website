@@ -195,10 +195,20 @@ tags: [Page]
 
     <div class="status-banner">
         <strong>Open to collaboration on:</strong> GeoAI · Remote Sensing · Spatial Statistics · AI for Good<br>
-        <p style="margin-top: 8px; margin-bottom: 0;">Starting my Ph.D. in Geospatial and Environmental Analysis at <strong>Virginia Tech</strong> in Fall 2026.</p>
     </div>
 
     <h2 class="section-title">Education</h2>
+
+    <div class="entry">
+            <div class="entry-header">
+                <span class="entry-main">Ph.D in Geographic Information Science</span>
+                <span class="entry-date">2026 – present</span>
+            </div>
+            <div class="entry-sub">Virginia Tech, Blacksburg, VA</div>
+            <div class="entry-details">
+                Advisor: <a href="https://carnivalbug.github.io/" target="_blank" style="color:#4a90e2; text-decoration:none;">Dr. Fangzheng Lyu</a>
+            </div>
+    </div>
     
     <div class="entry">
             <div class="entry-header">
@@ -210,15 +220,6 @@ tags: [Page]
                 Thesis: <em>VLM4S: A Vision-Language Model Framework for Geographically and Environmentally Informed Soundscape Assessment</em><br>
                 Advisor: <a href="https://scholar.google.com/citations?user=ul3VlbgAAAAJ" target="_blank" style="color:#4a90e2; text-decoration:none;">Dr. Sicheng Wang</a>
             </div>
-        </div>
-
-    <div class="entry">
-        <div class="entry-header">
-            <span class="entry-main">Visiting Student</span>
-            <span class="entry-date">2023 – 2024</span>
-        </div>
-        <div class="entry-sub">Wuhan University, China</div>
-        <div class="entry-details">Advisor: <a href="https://only4john.github.io/" target="_blank" style="color:#4a90e2; text-decoration:none;">Prof. Teng Fei</a></div>
     </div>
 
     <div class="entry">
@@ -233,6 +234,15 @@ tags: [Page]
         </div>
     </div>
 
+    <div class="entry">
+        <div class="entry-header">
+            <span class="entry-main">Visiting Student</span>
+            <span class="entry-date">2023 – 2024</span>
+        </div>
+        <div class="entry-sub">Wuhan University, China</div>
+        <div class="entry-details">Advisor: <a href="https://only4john.github.io/" target="_blank" style="color:#4a90e2; text-decoration:none;">Prof. Teng Fei</a></div>
+    </div>
+    
     <h2 class="section-title">Research & Internship</h2>
 
     <div class="entry">
