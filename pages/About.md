@@ -18,9 +18,9 @@ tags: [Page]
     /* --- 顶部 Header --- */
     .profile-header {
         text-align: center;
-        padding: 40px 0;
+        padding: 40px 0 30px 0;
         border-bottom: 1px solid rgba(128, 128, 128, 0.15);
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }
     .profile-header h1 {
         font-size: 1.9rem;
@@ -61,6 +61,25 @@ tags: [Page]
         background: #4a90e2; 
         color: white !important;
         border-color: #4a90e2;
+    }
+
+    /* --- 顶部艺术插画 Banner --- */
+    .hero-banner {
+        margin-bottom: 35px;
+        text-align: center;
+    }
+    .hero-banner-img {
+        width: 100%;
+        max-height: 380px;
+        object-fit: cover;
+        border-radius: 8px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        border: 1px solid rgba(128, 128, 128, 0.15);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .hero-banner-img:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 24px rgba(0, 0, 0, 0.12);
     }
 
     /* --- 状态公告栏 (适配多主题) --- */
@@ -133,7 +152,7 @@ tags: [Page]
         margin-bottom: 5px;
     }
 
-    /* --- 导师照片墙 (扩展为 4 列以包含博士导师) --- */
+    /* --- 导师照片墙 --- */
     .advisor-grid {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -145,7 +164,7 @@ tags: [Page]
     }
     .advisor-img {
         width: 100%;
-        aspect-ratio: 3/4; /* 切换为标准的学者肖像比，更显专业 */
+        aspect-ratio: 3/4; /* 标准学者肖像比 */
         object-fit: cover;
         border-radius: 6px;
         box-shadow: 0 4px 12px rgba(0,0,0,0.08);
@@ -173,10 +192,12 @@ tags: [Page]
 
     @media (max-width: 768px) {
         .advisor-grid { grid-template-columns: repeat(2, 1fr); gap: 15px; }
+        .hero-banner-img { max-height: 260px; }
     }
     @media (max-width: 480px) {
         .entry-header { flex-direction: column; gap: 2px; }
         .advisor-grid { grid-template-columns: 1fr; }
+        .hero-banner-img { max-height: 200px; }
     }
 </style>
 
@@ -192,6 +213,11 @@ tags: [Page]
         <a href="/Pengyu_Chen_CV.pdf" class="btn-cv">Complete CV (PDF)</a>
     </header>
 
+    <!-- 插入的艺术插画 -->
+    <div class="hero-banner">
+        <img src="{{ '/assets/Gemini_Generated_Image_vsa1evvsa1evvsa1.jpg' | relative_url }}" alt="GeoAI Artwork" class="hero-banner-img">
+    </div>
+
     <div class="status-banner">
         <strong>Open to collaboration on:</strong> GeoAI · Remote Sensing · Spatial Statistics · AI for Good<br>
     </div>
@@ -199,26 +225,26 @@ tags: [Page]
     <h2 class="section-title">Education</h2>
 
     <div class="entry">
-            <div class="entry-header">
-                <span class="entry-main">Ph.D in Geographic Information Science</span>
-                <span class="entry-date">2026 – present</span>
-            </div>
-            <div class="entry-sub">Virginia Tech, Blacksburg, VA</div>
-            <div class="entry-details">
-                Advisor: <a href="https://carnivalbug.github.io/" target="_blank" style="color:#4a90e2; text-decoration:none;">Dr. Fangzheng Lyu</a>
-            </div>
+        <div class="entry-header">
+            <span class="entry-main">Ph.D in Geographic Information Science</span>
+            <span class="entry-date">2026 – present</span>
+        </div>
+        <div class="entry-sub">Virginia Tech, Blacksburg, VA</div>
+        <div class="entry-details">
+            Advisor: <a href="https://carnivalbug.github.io/" target="_blank" style="color:#4a90e2; text-decoration:none;">Dr. Fangzheng Lyu</a>
+        </div>
     </div>
     
     <div class="entry">
-            <div class="entry-header">
-                <span class="entry-main">M.S. in Geographic Information Science</span>
-                <span class="entry-date">2024 – 2026</span>
-            </div>
-            <div class="entry-sub">University of South Carolina, Columbia, SC</div>
-            <div class="entry-details">
-                Thesis: <em>VLM4S: A Vision-Language Model Framework for Geographically and Environmentally Informed Soundscape Assessment</em><br>
-                Advisor: <a href="https://scholar.google.com/citations?user=ul3VlbgAAAAJ" target="_blank" style="color:#4a90e2; text-decoration:none;">Dr. Sicheng Wang</a>
-            </div>
+        <div class="entry-header">
+            <span class="entry-main">M.S. in Geographic Information Science</span>
+            <span class="entry-date">2024 – 2026</span>
+        </div>
+        <div class="entry-sub">University of South Carolina, Columbia, SC</div>
+        <div class="entry-details">
+            Thesis: <em>VLM4S: A Vision-Language Model Framework for Geographically and Environmentally Informed Soundscape Assessment</em><br>
+            Advisor: <a href="https://scholar.google.com/citations?user=ul3VlbgAAAAJ" target="_blank" style="color:#4a90e2; text-decoration:none;">Dr. Sicheng Wang</a>
+        </div>
     </div>
 
     <div class="entry">
