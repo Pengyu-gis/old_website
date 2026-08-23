@@ -213,11 +213,6 @@ tags: [Page]
         <a href="/Pengyu_Chen_CV.pdf" class="btn-cv">Complete CV (PDF)</a>
     </header>
 
-    <!-- 插入的艺术插画 -->
-    <div class="hero-banner">
-        <img src="{{ '/assets/Gemini_Generated_Image_vsa1evvsa1evvsa1.jpg' | relative_url }}" alt="GeoAI Artwork" class="hero-banner-img">
-    </div>
-
     <div class="status-banner">
         <strong>Open to collaboration on:</strong> GeoAI · Remote Sensing · Spatial Statistics · AI for Good<br>
     </div>
